@@ -36,8 +36,8 @@ export const Footer = () => {
             <ul className="space-y-4 text-sm text-gray-400">
               {['About', 'Services', 'Pricing', 'FAQ'].map((item, i) => (
                 <li key={i}>
-                  <a href="#" className="hover:text-primary flex items-center gap-2 transition-colors">
-                    <ArrowRight size={12} className="text-primary" />
+                  <a href="#" className="hover:text-accent flex items-center gap-2 transition-colors">
+                    <ArrowRight size={12} className="text-accent" />
                     {item}
                   </a>
                 </li>
@@ -49,19 +49,19 @@ export const Footer = () => {
             <h4 className="text-lg font-bold mb-8">Contact Info</h4>
             <ul className="space-y-6 text-sm text-gray-400">
               <li className="flex items-start gap-4">
-                <Phone size={18} className="text-primary mt-1" />
+                <Phone size={18} className="text-accent mt-1" />
                 <div>
                   <p className="text-white font-bold">+5689 2589 6325</p>
                   <p className="text-xs">Emergency 24/7</p>
                 </div>
               </li>
               <li className="flex items-start gap-4">
-                <Mail size={18} className="text-primary mt-1" />
+                <Mail size={18} className="text-accent mt-1" />
                 <p>info@indigo.com</p>
               </li>
               <li className="flex items-start gap-4">
-                <MapPin size={18} className="text-primary mt-1" />
-                <p>551 Swanston Street, Melbourne Victoria 3053 Australia</p>
+                <MapPin size={18} className="text-accent mt-1" />
+                <p>Austin, Texas & Greater Metro Area</p>
               </li>
             </ul>
           </div>
@@ -79,7 +79,7 @@ export const Footer = () => {
                 <div className="flex items-center gap-2">
                   <span className="text-[10px] font-bold uppercase tracking-widest">License:</span>
                   <span className="text-[10px] text-white">LIC# TX-PLM-48291</span>
-                  <a href="#" className="text-[10px] text-primary hover:underline">Verify</a>
+                  <a href="#" className="text-[10px] text-accent hover:underline">Verify</a>
                 </div>
               </li>
             </ul>

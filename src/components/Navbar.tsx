@@ -9,17 +9,17 @@ export const Navbar = () => {
       <div className="bg-primary text-white py-2 px-4 md:px-12 flex flex-wrap justify-between items-center text-xs">
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-2">
-            <Clock size={14} className="text-primary" />
+            <Clock size={14} className="text-accent" />
             <span>Open 24/7 - Emergency Service</span>
           </div>
           <div className="flex items-center gap-2">
-            <MapPin size={14} className="text-primary" />
-            <span>23 King Street Melbourne, Australia</span>
+            <MapPin size={14} className="text-accent" />
+            <span>Austin, Texas & Greater Metro Area</span>
           </div>
         </div>
         <div className="flex items-center gap-4">
           <span>License: LIC# TX-PLM-48291</span>
-          <a href="#" className="text-primary hover:underline">Verify</a>
+          <a href="#" className="text-accent hover:underline">Verify</a>
         </div>
       </div>
 
