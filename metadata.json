@@ -1,5 +1,9 @@
 {
-  "name": "INDIGO Plumbing",
-  "description": "Professional plumbing services by INDIGO",
+  "name": "INDIGO Services",
+  "license-tx": "3434834348-tx",
+  "description": "Call INDIGO! Austin, Round Rock, Leander, San Marcos",
+  "service-area": "Austin, Round Rock, Leander, San Marcos",
+  "phone-service": "512-343-3433",
+  "phone-emergency": "512-343-3433",
   "requestFramePermissions": []
 }
